@@ -215,16 +215,24 @@ header .row {
 .header__container {
     padding: 96px 0;
     display: flex;
+    flex-direction: row;
+    position: absolute;
 }
 
 .header__title {
     font-size: 36px;
     color: #1a202c;
     line-height: 1.25;
+    max-width: 350px;
+    text-align: left;
 }
 
 .header__description--para {
     margin: 32px 0;
+    font-size: 16px;
+    text-align: left;
+    max-width: 350px;
+
 }
 
 .header__email {
@@ -233,7 +241,7 @@ header .row {
     height: 68px;
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -242,7 +250,7 @@ header .row {
     border-radius: 500px;
     border: 2px solid rgb(229, 231, 235);
     padding: 20px 192px 20px 32px;
-    color: gb(36, 62, 99);
+    color: rgb(36, 62, 99);
     font-size: 16px;
     font-weight: 500;
     position: absolute;
@@ -264,6 +272,18 @@ header .row {
     font-weight: 700;
     font-size: 16px;
     cursor: pointer;
+}
+
+.header__customers--title {
+    margin-top: 80px;
+    color: #a0aec0;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.header__customer--strip {
+    padding-right: 64px;
+    opacity: 0.5;
 }
 
 
