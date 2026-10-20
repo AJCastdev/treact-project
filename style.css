@@ -440,6 +440,34 @@ QUALITY WORK ↓
     line-height: 1.625;
 }
 
+.btn__quality {
+    margin-top: 32px;
+    padding: 12px 32px;
+    background-color: #6415ff;
+    border: none;
+    border-radius: 500px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.quality__img--wrapper {
+    border-radius: 4px;
+    border: 1px solid rgb(229, 231, 235);
+    position: relative;
+    margin: 0 56px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.quality__img--wrapper img {
+    width: 50%;
+    height: 100%;
+}
+
 
 /* 
 
